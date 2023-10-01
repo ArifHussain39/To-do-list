@@ -1,0 +1,99 @@
+ /* Reset some default styles */
+ body {
+
+     margin: 0;
+     padding: 0;
+     font-family: Arial, sans-serif;
+     background-color: black;
+ }
+
+ /* Style the heading */
+ .heading {
+     font-family: 'Russo One', sans-serif;
+     text-align: center;
+     font-size: 36px;
+     margin-top: 20px;
+     color: #fff;
+ }
+
+ /* Style the container */
+ .container {
+     background-color: #fff;
+     background: linear-gradient(to bottom, #8E2DE2, #4A00E0);
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+     padding: 25px;
+     margin: 0 auto;
+     width: 80%;
+     max-width: 80%;
+
+ }
+
+
+ /* Style the task list */
+ .taskList {
+     padding: 0;
+     margin-top: 20px;
+ }
+
+ .taskList li {
+     display: flex;
+     margin-bottom: 10px;
+     padding: 10px;
+     background-color: #ffffff;
+     border-radius: 5px;
+     overflow: auto;
+ }
+
+
+ .checkbox {
+     margin-right: 10px;
+     cursor: pointer;
+ }
+
+ .selected {
+     text-decoration: line-through;
+     color: #777;
+ }
+
+ .trash {
+     margin-right: 10px;
+     color: #ff3333;
+     cursor: pointer;
+     font-size: 18px;
+ }
+
+ /* Hover effect on tasks */
+ .taskList li:hover {
+     background-color: #dfd9d9;
+ }
+
+
+ .dropdown-container {
+     margin-top: 20px;
+     display: none;
+     overflow: hidden;
+     transition: max-height 0.3s ease-out;
+ }
+
+ .dropdown-content {
+     max-height: 0;
+     transition: max-height 0.3s ease-in-out;
+ }
+
+ .dropdown-list li {
+
+     margin-bottom: 10px;
+     padding: 10px;
+     background-color: #ffffff;
+     border-radius: 5px;
+     overflow: auto;
+ }
+
+ .dropdown-list li:hover {
+     background-color: #dfd9d9;
+ }
+
+ footer {
+     color: white;
+ }
