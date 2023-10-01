@@ -52,6 +52,7 @@ function clearCompletedTasks() {
     for (let iterator of liArray) {
         iterator.remove();
     }
+    localStorage.clear();
 }
 function clearTasks() {
     var taskList = document.getElementsByClassName("taskList");
