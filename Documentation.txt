@@ -1,0 +1,87 @@
+Creating comprehensive documentation for a web project is a good practice to help both yourself and others understand how the project works, its structure, and how to use it. Below is an example of how you can structure documentation for your To-Do List web application:
+
+# To-Do List Web Application Documentation
+
+## Overview
+
+This documentation provides an overview of the To-Do List web application, explaining its purpose, features, and how to use it.
+
+### Purpose
+
+The To-Do List web application is designed to help users manage and organize their tasks and to-do items. It allows users to:
+
+- Add new tasks.
+- Mark tasks as completed.
+- Remove completed tasks.
+- Clear the entire task list.
+- View completed tasks in a dropdown list.
+- Clear the local storage.
+
+### Features
+
+The key features of the To-Do List web application include:
+
+1. **Task Management:**
+   - Users can add tasks by entering text and pressing the Enter key.
+   - Tasks can be marked as completed by checking a checkbox.
+   - Completed tasks can be visually distinguished by a "selected" class.
+   - Tasks can be deleted individually by clicking a trash icon.
+
+2. **Dropdown for Completed Tasks:**
+   - Users can view completed tasks in a dropdown menu.
+   - The dropdown displays all completed tasks.
+   - Users can clear completed tasks from the dropdown.
+
+3. **Local Storage:**
+   - Completed tasks are stored in the browser's local storage.
+   - The local storage can be cleared using a button.
+
+## Getting Started
+
+To use the To-Do List web application, follow these steps:
+
+1. Open the web application in a web browser.
+
+2. Enter tasks in the text area and press Enter to add them to the task list.
+
+3. Mark tasks as completed by checking the corresponding checkboxes.
+
+4. Click the trash icon to delete individual tasks.
+
+5. Click the "Completed tasks" button to open the dropdown and view completed tasks.
+
+6. Use the "Clear List" button to remove all tasks from the main task list.
+
+7. Use the "Clear" button to clear all data stored in local storage.
+
+## Code Structure
+
+The To-Do List web application is built using HTML, CSS, and JavaScript. Here's an overview of the code structure:
+
+- **HTML:** Defines the structure of the web page, including the task list, input field, buttons, and dropdown.
+- **CSS:** Defines the styles and layout of the web page, including Bootstrap and custom styles.
+- **JavaScript (`func.js`):** Contains the logic for adding, marking, and deleting tasks, managing the completed tasks dropdown, and handling local storage.
+
+## Clearing Local Storage
+
+To clear the data stored in local storage, click the "Clear" button provided in dropdown of the web application.
+
+## Support and Issues
+
+If you encounter any issues or have questions about the To-Do List web application, please contact me at arif.bssef21@iba-suk.edu.pk.
+
+
+## Credits
+
+- The To-Do List web application was developed by Arif Hussain.
+- It uses Bootstrap for styling and layout.
+- Icons are provided by the Unicons library.
+- Google Fonts is used for typography.
+
+## Version History
+
+- **Version 1.0 (01 Oct 2023):** Initial release of the To-Do List web application.
+
+## Conclusion
+
+The To-Do List web application is a simple yet effective tool for managing tasks and to-do items. It provides an intuitive interface for adding, completing, and removing tasks, along with the ability to view completed tasks and clear local storage. Enjoy staying organized and productive!
